@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/c-mall-api/c-mall-api.iml" filepath="$PROJECT_DIR$/c-mall-api/c-mall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c-mall-commons/c-mall-commons.iml" filepath="$PROJECT_DIR$/c-mall-commons/c-mall-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c-mall-parent/c-mall-parent.iml" filepath="$PROJECT_DIR$/c-mall-parent/c-mall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c-mall-security/c-mall-security.iml" filepath="$PROJECT_DIR$/c-mall-security/c-mall-security.iml" />
+    </modules>
+  </component>
+</project>

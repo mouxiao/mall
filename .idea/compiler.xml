@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="c-mall-api" />
+        <module name="c-mall-commons" />
+        <module name="c-mall-security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="c-mall-api" target="1.8" />
+      <module name="c-mall-commons" target="1.8" />
+      <module name="c-mall-parent" target="1.8" />
+      <module name="c-mall-security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
