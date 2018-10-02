@@ -3,10 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>c-mall-web</artifactId>
+	<groupId>com.mall</groupId>
+	<artifactId>c-mall-platform</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>c-mall-web</name>
+	<name>c-mall-platform</name>
 	<description>Mall project for Spring Boot</description>
 
 	<parent>
@@ -18,7 +20,27 @@
 
 
 	<dependencies>
+		<dependency>
+			<groupId>com.mall</groupId>
+			<artifactId>c-mall-security</artifactId>
+			<version>${mall.current.version}</version>
+		</dependency>
 
+		<dependency>
+			<groupId>com.mall</groupId>
+			<artifactId>c-mall-commons</artifactId>
+			<version>${mall.current.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mall</groupId>
+			<artifactId>c-mall-api</artifactId>
+			<version>${mall.current.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mall</groupId>
+			<artifactId>c-mall-web</artifactId>
+			<version>${mall.current.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
