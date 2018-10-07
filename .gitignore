@@ -41,3 +41,4 @@ local.properties
 
 # idea
 *.iml
+.idea/
