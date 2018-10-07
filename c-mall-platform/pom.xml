@@ -15,16 +15,15 @@
 		<groupId>com.mall</groupId>
 		<artifactId>c-mall-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 
 	<dependencies>
-		<dependency>
-			<groupId>com.mall</groupId>
-			<artifactId>c-mall-security</artifactId>
-			<version>${mall.current.version}</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>com.mall</groupId>-->
+			<!--<artifactId>c-mall-security</artifactId>-->
+			<!--<version>${mall.current.version}</version>-->
+		<!--</dependency>-->
 
 		<dependency>
 			<groupId>com.mall</groupId>

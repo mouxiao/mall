@@ -13,4 +13,15 @@ public class IndexController {
     public String index(){
         return "hello world";
     }
+
+    @RequestMapping("/signup")
+    public String signup(){
+        return "signup";
+    }
+
+    @RequestMapping("/about")
+    public String about(){
+        return "about";
+    }
+
 }
