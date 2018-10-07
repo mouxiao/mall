@@ -19,11 +19,6 @@
 
 
 	<dependencies>
-		<!--<dependency>-->
-			<!--<groupId>com.mall</groupId>-->
-			<!--<artifactId>c-mall-security</artifactId>-->
-			<!--<version>${mall.current.version}</version>-->
-		<!--</dependency>-->
 
 		<dependency>
 			<groupId>com.mall</groupId>
@@ -33,11 +28,6 @@
 		<dependency>
 			<groupId>com.mall</groupId>
 			<artifactId>c-mall-api</artifactId>
-			<version>${mall.current.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.mall</groupId>
-			<artifactId>c-mall-web</artifactId>
 			<version>${mall.current.version}</version>
 		</dependency>
 	</dependencies>
