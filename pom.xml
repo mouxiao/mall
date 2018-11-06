@@ -85,9 +85,7 @@
 
 
 	<modules>
-		<module>c-mall-api</module>
 		<module>c-mall-commons</module>
-		<module>c-mall-web</module>
 		<module>c-mall-platform</module>
 	</modules>
 
